@@ -1,0 +1,35 @@
+.complete {
+    text-decoration: line-through;
+}
+.control {
+    cursor:pointer;
+}
+.list {
+    background:rgb(94, 196, 170);
+    width:600px;
+    display: flex;
+    height: 50px;
+    margin-left: 350px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.list:hover {
+    background:rgb(17, 236, 182);
+}
+.list div {
+    color:white;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.list button {
+    background:rgb(141, 53, 90);
+    width: 120px;
+    color: white;
+}
+.list button:hover {
+    background:rgb(255, 4, 4);
+}

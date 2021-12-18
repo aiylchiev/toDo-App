@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    justify-content: center;
+    margin-right:100px;
+}
+.form input {
+    width:250px;
+    height: 30px;
+    background: rgb(104, 104, 185);
+    border: none;
+} 
+.form input:focus {
+    background:rgb(197, 197, 218);
+}
+.form input::placeholder {
+    color: white;
+}
+.form button {
+    background: rgb(151, 45, 45);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.form button:hover {
+    background: red;
+}
